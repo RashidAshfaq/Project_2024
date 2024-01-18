@@ -1,0 +1,84 @@
+/* // dashboard.css */
+
+/* Add your styling for the dashboard components here */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+ 
+  height: 901px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.description h1 {
+  /* Ignite Your Career with */
+
+position: absolute;
+width: 820px;
+height: 236px;
+left: 98px;
+top: 230px;
+
+font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 128px;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+color: #233D3E;
+
+
+}
+
+.description h1 i{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.description h1 .span2{
+    font-size: 100px;
+}
+.description h1 .span1{
+    top: 40px;
+    margin-left: 6px;
+    
+
+    }
+.description h2 {
+  /* Your Gateway to Professional Excellence */
+
+position: absolute;
+width: 605px;
+height: 152px;
+left: 115px;
+top: 560px;
+
+font-family: 'Segoe UI Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 53px;
+letter-spacing: -0.04em;
+text-transform: capitalize;
+
+color: #386264;
+
+}
+
+.image {
+  width: 600px; 
+  height: 650px; 
+  background-image: url('../../assets/Candidate_Image.png'); 
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
