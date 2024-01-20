@@ -1,22 +1,32 @@
 
   body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
   header {
     background-color: #233D3E;
-    color: white;
-    padding: 10px;
-    height: 100px;
+    /*color: white;*/
+    padding: 1rem;
+    height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .header-logo{
+    margin-left: 6rem;
+    height: 6rem;
   }
   
   .logo {
     font-size: 1.5em;
     font-weight: bold;
+  }
+
+  nav{
+    margin-right: 6rem;
   }
   
   nav ul {
@@ -25,18 +35,27 @@
     padding: 0;
     display: flex;
   }
-  
-  nav ul li {
-    margin-right: 40px;
-  }
-  
-  nav ul li .a {
+
+.nav-item a:link,
+.nav-item a:visited{
     text-decoration: none;
     color: white;
-    font-family: 'Avenir Next LT Pro';
+  font-family: 'Avenir Next LT Pro', serif;
     font-weight: bold;
     font-size: 24px;
+    transition: all .15s ease-in;
+    /*color: orange;*/
   }
+
+
+  .nav-item a:hover{
+    background: linear-gradient(135deg, #FFE600 10%,  #FF7C22 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
     header {
@@ -59,9 +78,9 @@
       margin-bottom: 10px;
     }
 
-    nav ul li .a{
+ .a{
         text-decoration: none;
-        color: white;
+        color: #49daff;
         font-weight: bold;
         font-size: 18px;
       }

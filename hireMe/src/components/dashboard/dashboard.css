@@ -1,84 +1,113 @@
 /* // dashboard.css */
 
 /* Add your styling for the dashboard components here */
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #e6eaea;
+}
 
 .main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
- 
-  height: 901px;
+  padding: 2rem;
+  height: 90.1rem;
+  background: url("White Doodle.png")white 0% 0%;
+  background-size: 60rem 60rem;
+  background-repeat: repeat;
+  border-left: 2px #38626480 solid;
+  border-right: 2px #38626480 solid;
 }
 
 .description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 20px;
+  display: flex;
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  margin-right: 2rem;
+  height: inherit;
+  width: 60%;
 }
 
-.description h1 {
-  /* Ignite Your Career with */
-
-position: absolute;
-width: 820px;
-height: 236px;
-left: 98px;
-top: 230px;
-
-font-family: 'Segoe UI';
-font-style: normal;
-font-weight: 700;
-font-size: 80px;
-line-height: 128px;
-letter-spacing: -0.04em;
-text-transform: uppercase;
-
-color: #233D3E;
-
-
+.description-heading-container {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  margin-top: 15rem;
 }
 
-.description h1 i{
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+.description-heading-container h1 {
+  font-family: "Segoe UI", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 10.5rem;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #233d3e;
 }
-.description h1 .span2{
-    font-size: 100px;
-}
-.description h1 .span1{
-    top: 40px;
-    margin-left: 6px;
-    
 
-    }
+.first-letter-headings {
+  font-size: 9.5rem;
+}
+
+.logo-text {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.logo-text img {
+  position: absolute;
+  top: 1rem;
+  padding-top: 0.5rem;
+  height: 9rem;
+  margin-left: 2.5rem;
+}
+
 .description h2 {
   /* Your Gateway to Professional Excellence */
 
-position: absolute;
-width: 605px;
-height: 152px;
-left: 115px;
-top: 560px;
+  font-family: "Segoe UI Variable", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.3rem;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  margin-top: 4rem;
 
-font-family: 'Segoe UI Variable';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 53px;
-letter-spacing: -0.04em;
-text-transform: capitalize;
-
-color: #386264;
-
+  color: #386264;
 }
 
-.image {
-  width: 600px; 
-  height: 650px; 
-  background-image: url('../../assets/Candidate_Image.png'); 
-  background-size: cover;
-  background-position: center;
-  border-radius: 8px;
+.image-container {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
+.image-container span {
+  position: absolute;
+  width: 90%;
+  top: 19%;
+  left: -7rem;
+  height: 65%;
+  display: block;
+}
+
+.image-container img {
+  height: 100%;
+  aspect-ratio: 594/646;
 }

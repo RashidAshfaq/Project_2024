@@ -1,6 +1,6 @@
 // Footer.js
 
-import './footer.css'; 
+import "./footer.css";
 
 const Footer = () => {
   return (
@@ -8,12 +8,17 @@ const Footer = () => {
       <div className="contact-section">
         <h1>Contact Us</h1>
         <div className="mail-section">
-          <span className="mail-icon">✉️</span>
-          <h2>Email us at: example@example.com</h2>
+          <span className="mail-icon">
+            <img src="envelope-solid.svg" alt="✉️" />
+          </span>
+          <h2>Email Us At: hiremedevelopers@gmail.com</h2>
         </div>
       </div>
       <div className="copyright-section">
-        <p>&copy; 2024 HireMe (A Smart Hiring Platform). All rights reserved.</p>
+        <p>
+          Copyrights &copy; 2024 HireMe (A Smart Hiring Platform) All rights
+          reserved.
+        </p>
       </div>
     </footer>
   );

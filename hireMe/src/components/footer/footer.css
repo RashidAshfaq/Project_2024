@@ -1,40 +1,53 @@
 /* footer.css */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
 .footer {
-    height: 280px;
-    background-color: #233D3E;
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .contact-section {
-    text-align: left;
-  }
-  
-  .contact-section h1 {
-    font-size: 40px;
-    
-  }
-  
-  .mail-section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .mail-icon {
-    font-size: 18px;
-    margin-right: 10px;
-  }
-  
-  .mail-section h2 {
-    font-size: 18px;
-  }
-  
-  .copyright-section {
-    text-align: center;
-  }
-  
+  height: 280px;
+  background-color: #233d3e;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Nunito", sans-serif;
+}
+
+.contact-section {
+  text-align: left;
+}
+
+.contact-section h1 {
+  font-size: 40px;
+}
+
+.mail-section {
+  display: flex;
+  align-items: center;
+}
+
+.mail-icon {
+  font-size: 18px;
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+.mail-icon img {
+  height: 18px;
+  width: 18px;
+}
+
+.mail-section h2 {
+  font-size: 16px;
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+}
+
+.copyright-section {
+  text-align: center;
+}
+
+.copyright-section p {
+  font-size: 12px;
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  opacity: 50%;
+}
