@@ -1,0 +1,13 @@
+.sideBar{
+    width: 6rem;
+    color: #233D3E;
+    height: calc(100vh - 6rem);
+    background: #233D3E;
+
+    grid-area: sidebar;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

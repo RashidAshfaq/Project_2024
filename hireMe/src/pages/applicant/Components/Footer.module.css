@@ -1,0 +1,14 @@
+
+.dashboardFooter{
+    width: calc(100vw - 6rem);
+    grid-area: footer;
+    height: 3rem;
+    overflow: hidden;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    background: #233D3E;
+}
+
+
+

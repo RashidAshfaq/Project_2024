@@ -1,0 +1,9 @@
+.applicantDashboard{
+    display: grid;
+    grid-template-rows: 6rem auto 3rem;
+    grid-template-columns: 6rem auto;
+    grid-template-areas:
+	"topheader topheader"
+    "sidebar applicantMain"
+	"sidebar footer";
+}

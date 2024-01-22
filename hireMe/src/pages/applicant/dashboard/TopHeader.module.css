@@ -1,0 +1,31 @@
+
+.topHeader{
+    height: 6rem;
+    grid-area: topheader;
+    background: #233D3E;
+    width: 100vw;
+}
+
+.headerLink{
+    margin: auto 0;
+}
+
+.appTextLogo{
+    height: 4rem;
+}
+
+.appLogo{
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+}
+
+.userAvatar{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+}
+
+.appLogo, .userAvatar{
+    height: 5rem;
+}

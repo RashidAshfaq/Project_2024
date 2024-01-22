@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 494.31 72.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6eaea;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Arrow_without_Tail" data-name="Arrow without Tail" stroke="">
+    <polygon id="Head" class="cls-1" points="494.31 36 431.93 0 431.93 72.01 494.31 36"/>
+    <rect id="Body" class="cls-1" y="0" width="431.93" height="72"/>
+  </g>
+</svg>

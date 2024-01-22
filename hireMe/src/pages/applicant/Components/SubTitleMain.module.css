@@ -1,0 +1,30 @@
+.subTitleMain{
+    height: 4rem;
+    height: 4rem;
+    color: #233D3E;
+    width: 32rem;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.subTitleText{
+    color: #233D3E;
+    font-family: Nunito, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 100;
+}
+
+.subtitleSvg{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+}

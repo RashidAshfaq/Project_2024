@@ -1,0 +1,79 @@
+.jobCardResult {
+    width: 92.6rem;
+    height: 11.8rem;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+    background: rgba(225, 225, 225, 0.80);
+    /*margin-top: 20px;*/
+    padding: 1.5rem;
+    border-radius: 2rem;
+    /*gap: .5rem;*/
+}
+
+.jobImage{
+    width: 8.8rem;
+    height: 8.8rem;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #C5C3C3;
+}
+
+
+.jobContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    gap: .2rem;
+    width: 82%;
+    padding: 0 1rem;
+}
+
+.jobContentTitle {
+    font-family: "Arial Rounded MT Bold","nunito", serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #233D3E;
+    word-wrap: break-word;
+}
+
+.jobContentDate {
+    font-family: 'Nunito', sans-serif;
+    color: rgba(56, 98, 100, 0.8);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.jobContentJobDescription {
+    font-family: 'Nunito', sans-serif;;
+    font-weight: 400;
+    color: #233D3E;
+    word-wrap: break-word;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.jobCardButton{
+    width: 8rem;
+    height: 3.5rem;
+    font-size: 1.6rem;
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+    align-self: flex-end;
+    font-weight: 700;
+    margin-top: 0px;
+    color: #233D3E;
+    cursor: pointer;
+
+    border-radius: 1rem;
+    border: 2px solid #233D3E;
+}

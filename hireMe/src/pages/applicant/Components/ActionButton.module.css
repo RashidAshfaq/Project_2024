@@ -1,0 +1,31 @@
+.isSelected{
+    border: 2px solid rgba(255, 172, 6, 0.89)!important;
+    background: #233D3E !important;
+}
+
+.actionButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.actionButton:hover{
+    border: 1px solid rgba(255, 172, 6, 0.89) !important;
+}
+
+
+.buttonImage{
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    height: 3.8rem;
+    width: 3.8rem;
+    -webkit-backdrop-filter: blur(2px);
+}

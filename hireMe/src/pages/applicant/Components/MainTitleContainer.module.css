@@ -1,0 +1,9 @@
+.MainTitleContainer{
+    width: 100%;
+    height:  128px;
+
+    border-bottom: 2px solid rgba(56, 98, 100, 0.42);
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
