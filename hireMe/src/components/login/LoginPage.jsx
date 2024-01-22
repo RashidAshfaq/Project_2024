@@ -48,43 +48,45 @@ const LoginPage = () => {
   };
 
   return (
-    <>
+    <div className={'login-page-container'}>
     <Header/>
-      <div className={`login-form ${error ? 'error-form' : ''}`}>
-        <div className="login-heading">
-          <h1>Log In</h1>
-        </div>
-        <form className="input-section" onSubmit={handleOnSubmit}>
-          <input
-            type="email"
-            placeholder="Email"
-            name="email"
-            value={data.email}
-            onChange={handleOnChange}
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            name="password"
-            value={data.password}
-            onChange={handleOnChange}
-          />
-          {error && <div className="error_msg">{error}</div>}
-          <button type="submit">Login</button>
-        </form>
-        <div className="signup-prompt">
-          <p>_____________Don't have an account?____________</p>
-        </div>
-        <div className="signup-button">
-          <button>
-            <Link className="a" to="/signUp">
-              Please, Sign Up
-            </Link>
-          </button>
+      <div className={'login-form-container'}>
+        <div className={`login-form ${error ? 'error-form' : ''}`}>
+          <div className="login-heading">
+            <h1>Log In</h1>
+          </div>
+          <form className="input-section" onSubmit={handleOnSubmit}>
+            <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                value={data.email}
+                onChange={handleOnChange}
+            />
+            <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                value={data.password}
+                onChange={handleOnChange}
+            />
+            {error && <div className="error_msg">{error}</div>}
+            <button type="submit">Login</button>
+          </form>
+          <div className="signup-prompt">
+            <p>_____________Don't have an account?____________</p>
+          </div>
+          <div className="signup-button">
+            <button>
+              <Link className="a" to="/signUp">
+                Please, Sign Up
+              </Link>
+            </button>
+          </div>
         </div>
       </div>
-      <Waves />
-    </>
+      <Waves/>
+    </div>
   );
 };
 

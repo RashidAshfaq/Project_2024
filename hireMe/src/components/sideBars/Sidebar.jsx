@@ -1,7 +1,7 @@
 // Header.js
 
 import { Link } from 'react-router-dom';
-import './sidebar.css';
+// import './sidebar.css';
 import logoSvg from '../../assets/Logo_Icon.svg';
 import hireMESvg from '../../assets/HireMe_Logo_Text.svg';
 import userAccount from '../../assets/User_Account.png';
@@ -14,7 +14,6 @@ import feedbackButton from '../../assets/Feedback.svg';
 const Sidebar = () => {
   return (
     <>
-    
     <header>
       <Link to="/">
         <img src={logoSvg} alt="Logo" />
@@ -26,7 +25,6 @@ const Sidebar = () => {
         <img src={userAccount} alt="user pic" />
       </Link>
     </header>
-
     <div className='sidebar'>
      <div></div>
      <div className='buttons'>

@@ -8,6 +8,7 @@ import SignUp from './pages/signUp/SignUpPage';
 import ApplicantDashboard from './pages/applicant/dashboard/Dashboard';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import DashboardContentContainer from "./pages/applicant/dashboard/DashboardContentContainer.jsx";
 
 function App() {
   return (
@@ -20,11 +21,19 @@ function App() {
           <Route path="/" element={<Home />} />
 
           {/* Applicant routes */}
-          <Route path="/applicantDashboard" element={<ApplicantDashboard/>}/>
+          <Route path="/applicantDashboard"
+                 element={
+            <ApplicantDashboard>
+              <DashboardContentContainer/>
+          </ApplicantDashboard>
+          }/>
         </Routes>
       </div>
     </Router>
   );
 }
+
+
+
 
 export default App;
